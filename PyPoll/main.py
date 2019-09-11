@@ -65,3 +65,5 @@ with open('election_data.csv') as election_data:
     print("------------------", file = resultsfile)
     print(f"Winner: {winner_name}", file = resultsfile)
     print("------------------", file = resultsfile)
+
+    resultsfile.close()
